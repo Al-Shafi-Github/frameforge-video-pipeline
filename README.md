@@ -38,7 +38,7 @@ python3 -m venv .venv
 .venv/bin/python run.py
 ```
 
-Open [http://127.0.0.1:8000](http://127.0.0.1:8000) to explore the interface without cloud credentials. Configure Modal before selecting **Generate video**. Generation uses your Modal account and can incur charges.
+
 
 ## Enable video generation
 
