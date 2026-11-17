@@ -1,0 +1,51 @@
+# Documentation
+*.[mM][dD]
+!/README.md
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local environment and credentials
+.env
+.env.*
+.envrc
+*.env
+*.env.*
+!/.env.example
+.modal.toml
+.modal/
+.aws/
+.netrc
+.npmrc
+.pypirc
+credentials.json
+service-account*.json
+secrets.json
+secrets.toml
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime data and generated media
+data/
+workspace/
+outputs/
+*.log
+*.db*
+*.sqlite*
+*.mp4
+*.wav
+*.mp3
+*.safetensors
+*.pt
+/test_flux.png
+
+# OS files
+.DS_Store
+Thumbs.db

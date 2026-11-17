@@ -1,0 +1,14 @@
+/* Prevent the illustration competing with the headline at tablet widths. */
+@media (max-width: 800px) {
+  .hero-art { display: none; }
+  .hero > div:first-child { min-width: 0; }
+}
+@media (max-width: 400px) {
+  .topbar-right { display: none; }
+  .hero h1 { font-size: 43px; }
+  .sidebar { width: 60px; padding-inline: 7px; }
+  .shell { margin-left: 60px; }
+  .estimate small { font-size: 9px; }
+  .bottom-note { line-height: 1.7; }
+  footer { flex-direction: column; gap: 5px; }
+}
